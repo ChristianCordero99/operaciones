@@ -21,6 +21,12 @@ public class operaciones {
 		int mult=val1*val2;
 		System.out.print("La multiplicacion es es: " + mult);
 	}
+	
+	public void Dividir() {
+		int div=val1/val2;
+		System.out.print("La division es es: " + div);
+	}
+
 
 	public int getVal1() {
 		return val1;

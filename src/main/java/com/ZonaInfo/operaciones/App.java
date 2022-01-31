@@ -24,6 +24,13 @@ public class App
         Operaciones.setVal1(2);
         Operaciones.setVal2(60);
         Operaciones.Multiplicar();
+        
+        System.out.println(" ");
+        System.out.println(" ");
+        
+        Operaciones.setVal1(30);
+        Operaciones.setVal2(2);
+        Operaciones.Dividir();
     }
     
     
