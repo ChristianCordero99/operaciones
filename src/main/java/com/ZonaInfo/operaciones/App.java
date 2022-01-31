@@ -23,7 +23,7 @@ public class App
         
         calculadora.setVal1(60);
     	calculadora.setVal2(2);
-    	calculadora.Multiplicar();
+    	calculadora.Multiplicacion();
         
         System.out.println(" ");
         System.out.println(" ");
