@@ -17,7 +17,10 @@ public class operaciones {
 		System.out.print("La resta es: " + resta);
 	}
 	
-	
+	public void Multiplicar() {
+		int mult=val1*val2;
+		System.out.print("La multiplicacion es es: " + mult);
+	}
 
 	public int getVal1() {
 		return val1;

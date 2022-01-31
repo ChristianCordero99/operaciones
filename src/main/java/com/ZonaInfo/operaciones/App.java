@@ -17,6 +17,13 @@ public class App
         Operaciones.setVal1(400);
         Operaciones.setVal2(60);
         Operaciones.Resta();
+        
+        System.out.println(" ");
+        System.out.println(" ");
+        
+        Operaciones.setVal1(2);
+        Operaciones.setVal2(60);
+        Operaciones.Multiplicar();
     }
     
     
