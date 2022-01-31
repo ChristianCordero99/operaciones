@@ -10,6 +10,14 @@ public class operaciones {
 		int suma=val1+val2;
 		System.out.print("La suma es: " + suma);
 	}
+	
+	
+	public void Resta() {
+		int resta=val1-val2;
+		System.out.print("La resta es: " + resta);
+	}
+	
+	
 
 	public int getVal1() {
 		return val1;
@@ -26,6 +34,6 @@ public class operaciones {
 	public void setVal2(int val2) {
 		this.val2 = val2;
 	}
-		
-
+	
+	
 }
