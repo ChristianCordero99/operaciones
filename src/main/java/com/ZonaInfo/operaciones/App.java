@@ -6,31 +6,31 @@ public class App
 {
     public static void main( String[] args )
     {
-        operaciones Operaciones= new operaciones();
-        Operaciones.setVal1(10);
-        Operaciones.setVal2(12);
-        Operaciones.Suma();
+    	Calculadora calculadora=new Calculadora();
+    	calculadora.setVal1(10);
+    	calculadora.setVal2(12);
+    	calculadora.Suma();
         
         System.out.println(" ");
         System.out.println(" ");
         
-        Operaciones.setVal1(400);
-        Operaciones.setVal2(60);
-        Operaciones.Resta();
+        calculadora.setVal1(400);
+    	calculadora.setVal2(60);
+    	calculadora.Resta();
         
         System.out.println(" ");
         System.out.println(" ");
         
-        Operaciones.setVal1(2);
-        Operaciones.setVal2(60);
-        Operaciones.Multiplicar();
+        calculadora.setVal1(60);
+    	calculadora.setVal2(2);
+    	calculadora.Multiplicar();
         
         System.out.println(" ");
         System.out.println(" ");
         
-        Operaciones.setVal1(30);
-        Operaciones.setVal2(2);
-        Operaciones.Dividir();
+        calculadora.setVal1(30);
+    	calculadora.setVal2(2);
+    	calculadora.Dividir();
     }
     
     
